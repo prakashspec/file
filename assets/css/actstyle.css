@@ -1,0 +1,551 @@
+/* MAHESH CODE START */ 
+
+#explore, #activity {
+    background: url(../../assets/images/activity/bg.png);
+}
+
+.container{
+	margin: auto;
+}
+
+.txt1 {
+    color: white;
+} 
+
+.bottom_col {
+    position: absolute;
+    top: 364px;
+    left: 0px;
+    /* background-color: #6dbcdb; */
+    width: 100%;
+    height: 223px;
+    /* border-top: 2px solid #7d7979; */
+}
+
+.table {
+    position: absolute;
+    width: 924px;
+    height: 588px;
+    top: 0px;
+    left: 0px;
+	/* background-image: url(../../assets/images/activity/bg.png);
+	background-size: 100% 100%; */
+}
+.leftPanelPar {
+    width: 530px;
+    height: 100px;
+    position: absolute;
+    display: block;
+    margin: auto;
+    margin-top: 1.4%;
+    left: 0;
+    right: 0;
+    border: 1px solid;
+    color: white;
+    background-color: #323232;
+    font-weight: bold;
+    z-index: 1;
+}
+.rightPanelPar{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	float: left;
+}
+
+#shootBtn {
+    margin-left: 429px;
+    background-color: transparent;
+    border: none;
+    background-image: url(../../assets/images/activity/shootBtn_E.png);
+}
+
+.grnMarPar {
+    margin-left: 144px;
+}
+
+.redMarPar {
+    margin-left: 288px;
+}
+
+.basketPosition {
+	margin-left: 63%;
+}
+
+.options b {
+    top: 3px;
+    position: absolute;
+    left: 11px;
+}
+
+.grnMarPar b {
+	left: 7px;
+}
+
+.redMarPar b {
+	left: 14px;
+}
+
+.options {
+    position: absolute;
+    width: 141px;
+    height: 86px;
+    text-indent: 12px;
+    font-size: 1em;
+    border-right: 2px solid #58595b;
+    top: 7px;
+}
+
+.springForce{
+	position: relative;
+	width: 75%;
+	height: 30%;
+	margin: auto;
+}
+	
+.greenMarble{
+	width: 74.89%;
+	
+}
+
+.levels {
+    position: relative;
+    background-color: #ffffff;
+    font-size: small;
+    float: left;
+    margin-left: 30px;
+    border-radius: 10px;
+    width: 30px;
+    border: 1px solid;
+    height: 17px;
+}
+.force, .basketPos {
+    position: relative;
+    background-color: #ffffff;
+    font-size: small;
+    float: left;
+    margin-left: 15px;
+    border-radius: 30px;
+    width: 30px;
+    border: 3px solid;
+    height: 18px;
+}
+
+.basketPosition{
+	border-right: none;
+}
+
+
+
+.txt_Level {
+    position: absolute;
+    font-size: 11px;
+    left: -14px;
+    top: 26px;
+}
+
+#txt_4 {
+    left: 43px;
+    top: 40px;
+}
+
+#txt_5 {
+    left: 104px;
+    top: 40px;
+}
+
+#txt_6 {
+    left: 166px;
+	top: 40px;
+}
+
+#num_1, #num_2, #num_3 {
+    top: 19px;
+    left: -8px;
+}
+	
+#greenMarble_1 {
+    margin-left: 21px;
+    margin-top: 21px;
+    background-image: url(../../assets/images/activity/green_small.png);
+    position: relative;
+}
+	
+#greenMarble_2 {
+    width: 48px;
+    height: 48px;
+    margin-top: 12px;
+    background-image: url(../../assets/images/activity/green_large.png);
+    position: relative;
+    margin-left: 17px;
+    background-size: 44px 44px;
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+}
+
+.grnMar {
+    width: 28px;
+    height: 28px;
+    float: left;
+    margin-left: 17px;
+    background-size: 24px 24px;
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+}
+
+	
+#redMarble_1 {
+    margin-left: 21px;
+    margin-top: 21px;
+    background-image: url('../../assets/images/activity/red_small.png');
+    position: relative;
+}
+	
+#redMarble_2{
+	width: 47px;
+	height: 48px;
+	margin-top: 10px;
+	background-image: url('../../assets/images/activity/red_large.png');
+    position: relative;
+	margin-left: 17px;	
+	background-size: 45px 45px;
+	background-position: 1px 1.5px;
+	background-repeat: no-repeat;
+}
+
+.redMar{
+	width: 28px;
+	height: 28px;
+	float: left;
+	margin-left: 17px;
+	background-size: 24px 24px;
+	background-position: 2px 2px;
+	background-repeat: no-repeat;
+}
+
+.standCont {
+    position: absolute;
+    width: 388px;
+    height: 279px;
+    top: 204px;
+    left: 157px;
+    background-image: url(../../assets/images/activity/table.png);
+    background-size: 100% 100%;
+}
+
+.stand {
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+
+#standCenter {
+    width: 80%;
+}
+
+#standTop{
+	height: 11%;
+}
+
+#standBottom{
+	height: 89%;
+	width: 100%;
+}
+
+#shootBtn {
+    padding: 25px 18px;
+    position: relative;
+    top: 16px;
+    left: 17px;
+    color: #000;
+    font-weight: bolder;
+    font-size: 12px;
+    /* border-radius: 50%; */
+    width: 69px;
+    height: 69px;
+    background-size: 69px 69px;
+    box-sizing: border-box;
+	z-index: 11;
+}
+
+.status {
+    position: relative;
+    font-size: large;
+    float: left;
+    margin-right: 43px;
+    text-align: center;
+    margin-top: 35px;
+    font-weight: bold;
+    color: #000000;
+}
+
+#springHolder {
+    background-image: url('../../assets/images/activity/spring_holder.png');
+    background-size: 100% 100%;
+    width: 28px;
+    height: 44px;
+    top: 204px;
+    position: absolute;
+    left: 131px;
+	z-index: 1;
+	display: none;
+}
+
+#spring {
+    background-image: url('../../assets/images/activity/spring.png');
+    background-size: 100% 100%;
+    width: 65px;
+    height: 25px;
+    top: 216px;
+    position: absolute;
+    left: 193px;
+	z-index: 1;
+}
+
+#redMarForce{
+	width: 45px;
+	height: 45px;
+}
+	
+#grnMarHit {
+    position: absolute;
+    top: 173px;
+    left: 88px;
+	background-image: url('../../assets/images/activity/green_small.png');
+    background-size: 100% 100%;
+	z-index: 1;
+}
+	
+#redMarForce{
+	top: 143px;
+    left: 179px;
+	z-index: 2;
+	background-image: url('../../assets/images/activity/red_large.png');
+    background-size: 100% 100%;
+	transform: rotate(0deg);
+	-ms-transform: rotate(0deg);	
+	-moz-transform: rotate(0deg);	
+	-webkit-transform: rotate(0deg);
+}
+
+.hitForce {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    
+}
+
+.statusCont {
+    left: 199px;
+    position: absolute;
+    bottom: 20px;
+}
+.grnMarPar, .redMarPar {
+    height: 86px;
+    width: 141px;
+}
+
+.redMarPar {
+	width: 141px;
+}
+
+.basketNo {
+    top: 472px;
+    left: 561px;
+    position: absolute;
+    font-size: large;
+    font-weight: bold;
+}
+
+#basket2 {
+	left: 665px;
+}
+
+#basket3 {
+	left: 769px;
+}
+
+#tableShadow {
+    top: 422px;
+    left: 146px;
+    z-index: -1;
+    position: absolute;
+    font-size: medium;
+    width: 395px;
+    height: 66px;
+    background: url(../../assets/images/activity/tableShadow.png);
+}
+
+.basketBotArea {
+    top: 441px;
+    left: 559px;
+    z-index: 1;
+    position: absolute;
+    font-size: medium;
+    width: 98px;
+    height: 28px;
+    background: url(../../assets/images/activity/basketShadow.png);
+    /* border-radius: 50%; */
+}
+
+#basketBottom1 {
+    position: absolute;
+	font-size: medium;
+}
+
+#basketBottom2 {
+    left: 661px;
+}
+
+#basketBottom3 {
+	left: 766px;
+}
+
+#basketObj {
+    background-image: url('../../assets/images/activity/basket.png');
+    background-size: 100% 100%;
+    width: 93px;
+    z-index: 3;
+    height: 114px;
+    top: 346px;
+    position: absolute;
+    left: 396px;
+}
+#progressbar {
+    margin-bottom: 0px;
+    width: 100%;
+    margin-top: 14px;
+    margin-left: -49px;
+}
+
+#progressbar li {
+    list-style-type: none;
+    width: 3%;
+    padding-left: 15px;
+}
+#progressbar li:before {
+    width: 10px;
+    line-height: 10px;
+    display: block;
+    color: #ffffff;
+    background: #ffffff;
+    border-radius: 15px;
+    margin: 10px -19px 5px auto;
+    margin-top: 3px;
+    margin-left: -12px;
+	text-indent: 0;
+	}
+
+#progressbar li::after {
+    content: '';
+    width: 90%;
+    height: 5px;
+    background: #ffffff;
+    position: absolute;
+    left: -96%;
+    top: 6px;
+    z-index: 1;
+}
+
+#progressbar li:first-child, #basketBar li:first-child {
+	margin-left: 26px;
+}
+#progressbar li:first-child:after {
+    content: none;
+}
+#progressbar li:first-child:before {
+    color: #ffcb05;
+    background: #ffcb05;
+}
+#basketBar {
+    margin-bottom: 0px;
+    width: 100%;
+    margin-top: 11px;
+    margin-left: -50px;
+}
+#basketBar li {
+        list-style-type: none;
+    width: 1%;
+    padding-left: 15px;
+}
+#basketBar li:before {
+    width: 10px;
+    line-height: 10px;
+    display: block;
+    color: #ffffff;
+    background: #ffffff;
+    border-radius: 15px;
+    margin: 10px -19px 5px auto;
+    margin-top: 3px;
+    margin-left: -12px;
+	text-indent: 0;
+}
+
+#basketBar li:after {
+    content: '';
+    width: 90%;
+	height: 5px;
+	background: #ffffff;
+	position: absolute;
+	left: -96%;
+	top: 6px;
+	z-index: 1;
+}
+#basketBar li:first-child:after {
+    content: none;
+}
+#basketBar li:first-child:before {
+    color: #ffcb05;
+    background: #ffcb05;
+}
+#slider {
+    width: 60px;
+    top: 145px;
+    border: 2px solid rgb(196, 196, 196);
+    left: 27px;
+    position: absolute;
+	opacity: 0;
+}
+ #slider1{
+    position: absolute;
+    top: -10px;
+    left: 55px;
+    width: 7px;
+    height: 20px;
+    background-image: url(../../assets/images/activity/colorbar.png);
+}
+.emptyDiv {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+	display: none;
+}
+#resetBtn {
+    position: absolute;
+    z-index: 2;
+    background-color: #a7a9ac;
+    top: 168px;
+    left: 22px;
+    width: 135px;
+	font-family: "Roboto-Regular";
+    height: 39px;
+    font-size: large;
+    border: 1px solid #abadb0;
+    color: #fff;
+    padding: 6px 30px;
+    border-radius: 0%;
+	z-index: 12;
+}
+
+.workAreaBg {
+    display: none;
+}
+
+#txt_2{
+	left: -24px;
+}
+
+ /* MAHESH CODE END */
